@@ -11,6 +11,17 @@ Stanley Stevens // December 2016 // GA Class Project
 - Untrained Data - personal political articles I’ve read (count: 310 articles) - [source](https://dataclips.heroku.com/heuwkhqdpstqyonvfywticdmeuir-political_bookmarks.csv)
 - More details (including exploration notes) - [source](https://docs.google.com/document/d/1GYnSqb1Qq60_JRr4x2G-FhF2Rl6hmLxO8EETNWUelgs/edit)
 
+### Data Dictionary
+- political lean: political bias of article (left, lean left, center, lean right, right, mixed not rated)
+- cleaned_text: article text (no html)
+- ugly_text: article text (including html)
+- url_raw: full url of article
+- url_clean: full url minus key/value pairs at end of url string
+- url_domain: host/domain of article (e.g. cnn.com)
+- title: title of article
+- meta_description: mini summary of article
+- issue: topic of article (e.g. economy, election, environment, healthcare, etc.)
+
 ## Model Selection
 - MultinomialNB: I explored Multinomial Naive Bayes up front using a number of different features and parameters, but it always seemed to underperform logistic regression (though it was much faster, as to be expected)
 - Logistic Regression
