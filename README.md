@@ -23,7 +23,8 @@ Stanley Stevens // December 2016 // GA Class Project
 - issue: topic of article (e.g. economy, election, environment, healthcare, etc.)
 
 ## Model Selection
-- MultinomialNB: I explored Multinomial Naive Bayes up front using a number of different features and parameters, but it always seemed to underperform logistic regression (though it was much faster, as to be expected)
+- Knn: by far the worst of the three models, with average accuracy scores in the 0.2 and 0.3s
+- MultinomialNB: I explored Multinomial Naive Bayes up front using a number of different features and parameters, but it always seemed to underperform logistic regression by roughly 10-30% (though it was much faster, as to be expected)
 - Logistic Regression
   - With the count vectorized params mentioned above: ngram and min_df)
   - I ended up exploring two models both using logistic regression but with different feature sets: Model A: Text+Domain+Url & Model B: Domain (only)
