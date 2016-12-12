@@ -45,3 +45,4 @@ Stanley Stevens // December 2016 // GA Class Project
 - 310 Articles - data source (csv)
 - I would also like to connect it to facebook and twitter (and pull in articles they’ve posted) to allow people to see where they stand from a political bias perspective
 - A next step for both of the above will be to suggest articles from a different perspective so as to get a more balanced and nuanced view of the world.
+- It will also probably be useful to create a model that detects if an article is a political article, so I can run it against any news article and accurately predict if this model is even relevant.
