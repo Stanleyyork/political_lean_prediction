@@ -10,6 +10,7 @@ Stanley Stevens // December 2016 // GA Class Project
 - Training Data - [source](https://www.dropbox.com/s/6vwbaqwxnd5z8e6/training_data.csv?dl=0)
 - Untrained Data - personal political articles I’ve read (count: 310 articles) - [source](https://dataclips.heroku.com/heuwkhqdpstqyonvfywticdmeuir-political_bookmarks.csv)
 - More details (including exploration notes) - [source](https://docs.google.com/document/d/1GYnSqb1Qq60_JRr4x2G-FhF2Rl6hmLxO8EETNWUelgs/edit)
+- Presentation - [source](https://www.dropbox.com/s/06afmarj5g6v06m/Predicting%20Political%20Lean%20of%20an%20Article.pdf?dl=0)
 
 ### Data Dictionary
 - political lean: political bias of article (left, lean left, center, lean right, right, mixed not rated)
